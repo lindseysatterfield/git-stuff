@@ -26,3 +26,40 @@ li a:hover {
   background-color: blue;
   color: red;
 }
+
+.section-1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+/* article {
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+}
+
+.card {
+  margin: 10px;
+  border: 3px solid red;
+  padding: 10px;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
